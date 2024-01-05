@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title></title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md  fixed-top w-100 bg-dark  py-3" data-bs-theme="dark">
+        <div class="container px-2">
+            <a class="navbar-brand  nav-logo text-uppercase pe-5 me-5" href="#home">weather</a>
+            <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link position-relative px-3  text-capitalize" aria-current="page"
+                            href="#home">home</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative px-3  text-capitalize">news</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative px-3  text-capitalize">live</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link position-relative px-3   text-capitalize">photos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link position-relative px-3  text-capitalize" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="min-vh-100 d-flex justify-content-center align-items-center">
+        <div class="container my-5">
+            <div class="w-100 d-flex justify-content-center align-items-center position-relative my-5">
+                <input type="text" placeholder="Find your location..." id="search" class="form-control">
+                <input type="button" value="Find" id="submit">
+            </div>
+            <div class="row" id="forecast">
+
+            </div>
+        </div>
+    </header>
+    <footer class="site-footer py-5  text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 ">
+                    <div class="w-100 d-flex justify-content-center align-items-center position-relative my-5">
+                        <input type="text" placeholder="Enter your email..." id="search" class="form-control">
+                        <input type="button" value="subscrib" id="submit">
+                    </div>
+                </div>
+                <div class="col-md-12 ">
+                    <div class="social-links ">
+                        <a href="#"><i class="fa-brands fa-facebook px-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter px-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus px-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest px-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+body {
+    background: #1e202b;
+
+}
+
+nav {
+    box-shadow: 0px 30px 50px rgba(255, 255, 255, 0.05)
+}
+
+nav .nav-logo {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #009ad8;
+}
+
+#search {
+    width: 100%;
+    padding: 15px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+}
+
+#submit {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+#submit:hover {
+    background: transparent;
+    border: 1px solid #009ad8;
+
+}
+
+
+::placeholder {
+    color: white !important;
+}
+
+.forecast {
+    color: white;
+    text-align: center;
+    background: #1e202b;
+    box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.forecast .forecast-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #009ad8;
+    font-size: 20px;
+}
+
+.location {
+    font-size: 28px;
+}
+
+.degree {
+    font-size: 50px;
+    font-weight: bold;
+}
