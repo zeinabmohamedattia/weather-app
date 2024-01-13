@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md  fixed-top w-100 bg-dark  py-3" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md  fixed-top w-100 z-3 dark-bg  py-2" data-bs-theme="dark">
         <div class="container px-2">
             <a class="navbar-brand  nav-logo text-uppercase pe-5 me-5" href="#home">weather</a>
             <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse"
@@ -41,7 +41,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link position-relative px-3  text-capitalize" href="#contact">contact</a>
+                        <a class="nav-link position-relative px-3  text-capitalize" >contact</a>
                     </li>
                 </ul>
             </div>
@@ -60,33 +60,41 @@
                     </div>
                 </div>
                 <div class="col-md-8 h-100">
-                    <div class="row h-100" id="nextDay">
+                    <div class="row " id="nextDay">
 
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <footer class="site-footer py-5  text-white">
+    <footer class="site-footer py-3  text-white">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 ">
+                <div class="col-md-10 offset-md-1">
                     <div class="w-100 d-flex justify-content-center align-items-center position-relative my-5">
                         <input type="text" placeholder="Enter your email..." class="form-control input">
                         <input type="button" value="subscrib" id="submit">
                     </div>
                 </div>
                 <div class="col-md-12 ">
-                    <div class="social-links ">
-                        <a href="#"><i class="fa-brands fa-facebook px-2"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter px-2"></i></a>
-                        <a href="#"><i class="fa-brands fa-google-plus px-2"></i></a>
-                        <a href="#"><i class="fa-brands fa-pinterest px-2"></i></a>
+                    <div class="social-links d-flex justify-content-center">
+                        <a href="#"
+                            class="d-flex justify-content-center align-items-center text-decoration-none me-1"><i
+                                class="fa-brands fa-facebook px-2"></i></a>
+                        <a href="#"
+                            class="d-flex justify-content-center align-items-center text-decoration-none me-1"><i
+                                class="fa-brands fa-twitter px-2"></i></a>
+                        <a href="#"
+                            class="d-flex justify-content-center align-items-center text-decoration-none me-1"><i
+                                class="fa-brands fa-google-plus px-2"></i></a>
+                        <a href="#"
+                            class="d-flex justify-content-center align-items-center text-decoration-none me-1"><i
+                                class="fa-brands fa-pinterest px-2"></i></a>
                     </div>
                 </div>
             </div>
 
-            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            <p class="lead text-center">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
         </div>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
