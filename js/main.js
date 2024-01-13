@@ -1,3 +1,4 @@
+
 let searchInput = document.querySelector('#search')
 async function getData(townName) {
     let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=cc7f6e3618d34861abc214936240301&q=${townName}&days=3`);
@@ -20,7 +21,7 @@ function displayCurrentDay(result) {
                             <div class="degree d-flex justify-content-center align-items-center">
                                 <div >${result.current.temp_c}<sup>o </sup>C</div>
                                 <div class="forecast-icon">
-                                    <img src="https:${result.current.condition.icon}" alt="" width="120">
+                                    <img src="https:${result.current.condition.icon}" alt="" width="100">
                                 </div>
                             </div>
                             <div class="text-info mb-3">${result.current.condition.text}</div>
@@ -41,13 +42,13 @@ function displayNextDays(result) {
         let nextDate = new Date(forecastData[i].date);
         cartona += `
         <div class="col-md-6 ">
-               <div class="forecast h-100  " >
+               <div class="forecast   " >
                     <div class="forecast-header ">
                          <div ">${nextDate.toLocaleDateString("en-US", { weekday: 'long' })}</div>
                         </div>
                         <div class="forecast-content p-5">
                             <div class="forecast-icon">
-                                <img src="https:${forecastData[i].day.condition.icon}" alt="" width="100">
+                                <img src="https:${forecastData[i].day.condition.icon}" alt="" width="90">
                             </div>
                             <div class="fs-2">${forecastData[i].day.maxtemp_c}<sup>o</sup>C</div>
                             <p class="fs-1">${forecastData[i].day.mintemp_c}<sup>o</sup></p>
